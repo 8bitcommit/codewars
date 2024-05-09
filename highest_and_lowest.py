@@ -13,3 +13,7 @@ def high_and_low(numbers):
         string = str(temp_max) + ' ' + str(temp_min)
 
         return string
+
+def high_and_low(numbers): #z.
+    nn = [int(s) for s in numbers.split(" ")]
+    return "%i %i" % (max(nn),min(nn))
