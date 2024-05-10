@@ -15,6 +15,8 @@ def validate_pin(pin):
     
                 else:
                         return False
+#def validate_pin(pin):
+#    return len(pin) in (4, 6) and pin.isdigit()
 
 if __name__ == "__main__":
         validate_pin("1ABCD3")
