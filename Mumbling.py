@@ -15,9 +15,15 @@ def accum(st):
                         mumble += st[c].lower()
     return mumble
 
-#solution
+#other solutions
+
 #def accum(s):
 #    return '-'.join(c.upper() + c.lower() * i for i, c in enumerate(s))
 
+#def accum(s):
+#    value = ""
+#    for i,c in enumerate(s):
+#        value += c.upper() + c.lower()*i + "-"
+#    return value[:-1]
 if __name__ == "__main__":
         accum("RqaEzty")
