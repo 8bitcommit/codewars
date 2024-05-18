@@ -11,6 +11,10 @@ def narcissistic( value ):
                 sum+=num**exp
         print(sum == int(value))
         return sum == int(value)
+#solution
+#def narcissistic(value):
+#    return value == sum(int(x) ** len(str(value)) for x in str(value))
+
 if __name__ == "__main__":
         narcissistic(153)
         narcissistic(1652)
