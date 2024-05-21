@@ -5,8 +5,10 @@
 def is_pangram(st):
         alpha = "abcdefghijklmnopqrstuvwxyz"
         for i in alpha:
-                if ((i.isalpha()==True) and (i not in st.lower())):
+                if (i not in st.lower()):
+                        print("NOT")
                         return False
+        print("P")
         return True  
 
 #other_solutions
