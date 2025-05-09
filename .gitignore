@@ -1,10 +1,8 @@
 # Ignore everything
 *
 
-# Allow .gitignore itself
+# But NOT these
 !.gitignore
+!*/
+!**/*.py
 
-# Allow Python files at any level
-!*.py
-!*/               # allow folder traversal
-!**/*.py          # allow .py files in subfolders
